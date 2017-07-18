@@ -1,0 +1,67 @@
+<style>
+    .list-group-item {
+        border: none;
+    }
+
+    .chat-container {
+        position: relative;
+        height: 100%;
+        padding: 20px;
+    }
+
+    .chat-row{
+        height: 100%;
+    }
+    .chat-column{
+        height: 100%;
+    }
+
+    .chat-history {
+        height: 100%;
+        margin:0;
+        box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+    }
+
+    .chat-input-wrapper {
+        box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+        background-color: rgb(250, 251, 252);
+        position: absolute;
+        bottom: 0;
+        left:0;
+        right: 0;
+        margin: 0 15px 0 15px;
+    }
+
+    .chat-input {
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        line-height: 17px;
+        width: 80%;
+        padding: 9px 72px 10px 11px;
+        box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+    }
+</style>
+<div class="container chat-container">
+    <div class="row chat-row">
+        <div class="col-md-12 chat-column">
+            <ul class="list-group chat-history">
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Morbi leo risus</li>
+                <li class="list-group-item">Porta ac consectetur ac</li>
+                <li class="list-group-item">
+                    <ul>
+                        <li>Vestibulum at eros</li>
+                        <li>Vestibulum at eros</li>
+                        <li>Vestibulum at eros</li>
+                        <li>Vestibulum at eros</li>
+                    </ul>
+                </li>
+                <li class="list-group-item chat-input-wrapper">
+                    <input class="chat-input" placeholder="Write a message..."/>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
